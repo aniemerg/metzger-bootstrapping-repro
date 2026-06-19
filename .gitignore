@@ -1,0 +1,7 @@
+# Python virtual environment (recreate with: python3 -m venv .venv)
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.DS_Store
