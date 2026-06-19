@@ -5,3 +5,8 @@ __pycache__/
 
 # OS / editor cruft
 .DS_Store
+
+# Full-page PDF renders (intermediate; regenerate via make_comparisons.py).
+# The cropped originals (figures/original_crops/) and the side-by-side
+# composites (figures/comparisons/) ARE tracked.
+figures/original_pages/
