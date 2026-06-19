@@ -2,10 +2,16 @@
 
 A from-scratch computational reproduction of the modeling in:
 
-> **Metzger, P. T., Muscatello, A., Mueller, R. P., & Mantovani, J.**
-> *"Affordable, rapid bootstrapping of space industry and solar system
-> civilization."* Preprint, to appear in the *Journal of Aerospace Engineering*.
-> (Source PDF: [`docs/`](docs/).)
+> Metzger, P. T., Muscatello, A., Mueller, R. P., & Mantovani, J. (2013).
+> "Affordable, Rapid Bootstrapping of the Space Industry and Solar System
+> Civilization." *Journal of Aerospace Engineering*, **26**(1), 18–29.
+> DOI: [10.1061/(ASCE)AS.1943-5525.0000236](https://doi.org/10.1061/(ASCE)AS.1943-5525.0000236).
+> Open-access preprint: [arXiv:1612.03238](https://arxiv.org/abs/1612.03238).
+
+The copy in [`docs/`](docs/) is the authors' preprint (titled "…of space
+industry…", marked "To appear in *Journal of Aerospace Engineering*"); the
+citation above is the final published version. Full citation metadata is in
+[`CITATION.cff`](CITATION.cff) (BibTeX at the end of this file).
 
 The paper argues that advances in robotics and 3D printing make it feasible to
 **bootstrap a self-sustaining, self-expanding lunar industry** from as little as
@@ -211,10 +217,35 @@ Reported honestly rather than tuned away:
 
 ## Where to read more
 
-- **The original science:** [`docs/`](docs/) — the source PDF.
+- **The original science:** [`docs/`](docs/) — the source PDF (preprint). Full
+  citation: [`CITATION.cff`](CITATION.cff) and the [BibTeX](#citing-the-original-paper) below.
 - **Why each modeling choice was made:** [`ASSUMPTIONS.md`](ASSUMPTIONS.md).
 - **How the project unfolded (plan, checkpoints, bug fixes):** [`PLAN.md`](PLAN.md).
 - **The math, in code:** [`model.py`](model.py) — heavily commented.
 
 This is an independent reproduction for study purposes; it is not affiliated
 with the original authors.
+
+---
+
+## Citing the original paper
+
+Please cite the original work, not this reproduction:
+
+```bibtex
+@article{metzger2013bootstrapping,
+  author  = {Metzger, Philip T. and Muscatello, Anthony and
+             Mueller, Robert P. and Mantovani, James},
+  title   = {Affordable, Rapid Bootstrapping of the Space Industry and
+             Solar System Civilization},
+  journal = {Journal of Aerospace Engineering},
+  volume  = {26},
+  number  = {1},
+  pages   = {18--29},
+  year    = {2013},
+  doi     = {10.1061/(ASCE)AS.1943-5525.0000236},
+  note    = {Preprint: arXiv:1612.03238}
+}
+```
+
+See [`CITATION.cff`](CITATION.cff) for the same metadata in Citation File Format.

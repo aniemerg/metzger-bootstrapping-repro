@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: >-
+  This repository is an independent reproduction. If you use it, please cite the
+  ORIGINAL paper (see references below), not this reproduction.
+title: "Reproduction of Metzger et al. (2013) lunar-industry bootstrapping model"
+abstract: >-
+  A from-scratch Python reproduction of the six-generation lunar-industry
+  bootstrapping model and all 14 figures from Metzger, Muscatello, Mueller &
+  Mantovani (2013), "Affordable, Rapid Bootstrapping of the Space Industry and
+  Solar System Civilization," Journal of Aerospace Engineering 26(1):18-29.
+type: software
+authors:
+  - name: "Independent reproduction"
+references:
+  - type: article
+    title: >-
+      Affordable, Rapid Bootstrapping of the Space Industry and Solar System
+      Civilization
+    authors:
+      - family-names: Metzger
+        given-names: Philip T.
+      - family-names: Muscatello
+        given-names: Anthony
+      - family-names: Mueller
+        given-names: Robert P.
+      - family-names: Mantovani
+        given-names: James
+    journal: Journal of Aerospace Engineering
+    volume: 26
+    issue: 1
+    start: 18
+    end: 29
+    year: 2013
+    doi: 10.1061/(ASCE)AS.1943-5525.0000236
+    notes: "Authors' preprint available at arXiv:1612.03238"

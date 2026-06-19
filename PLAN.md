@@ -1,8 +1,10 @@
 # Reproduction Plan
 
-Reproducing **Metzger, Muscatello, Mueller & Mantovani, "Affordable, rapid
-bootstrapping of space industry and solar system civilization"** (preprint, to
-appear in *Journal of Aerospace Engineering*). Source PDF in `docs/`.
+Reproducing **Metzger, Muscatello, Mueller & Mantovani (2013), "Affordable,
+Rapid Bootstrapping of the Space Industry and Solar System Civilization,"
+*Journal of Aerospace Engineering* 26(1):18-29**, DOI
+10.1061/(ASCE)AS.1943-5525.0000236. The PDF in `docs/` is the authors'
+preprint; full citation in `CITATION.cff` / `README.md`.
 
 ## Goal & ground rules
 
